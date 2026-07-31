@@ -1,0 +1,40 @@
+{
+  "name": "whatsapp-automation",
+  "version": "1.0.0",
+  "description": "Automação WhatsApp em TypeScript com Baileys",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start:scheduled": "tsx src/run-scheduled.ts",
+    "start:admin": "tsx src/run-admin.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean:auth": "tsx src/scripts/clear-auth.ts",
+    "list:groups": "tsx src/scripts/list-groups.ts"
+  },
+  "keywords": [
+    "whatsapp",
+    "automation",
+    "baileys",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.13",
+    "dotenv": "^16.4.7",
+    "mime-types": "^3.0.2",
+    "node-cron": "^4.6.0",
+    "open": "^11.0.0",
+    "qrcode": "^1.5.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^3.0.1",
+    "@types/node": "^22.13.14",
+    "@types/node-cron": "^3.0.11",
+    "@types/qrcode": "^1.5.6",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

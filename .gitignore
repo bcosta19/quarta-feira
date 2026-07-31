@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Auth session (sensitive)
+auth/
+
+# Environment
+.env
+
+# Config persistida (gerada pelo painel admin)
+data.json
+
+# Uploads feitos pelo painel admin
+uploads/
+
+# Logs
+*.log
+
+# Media files (uploaded by users)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.mp3
+*.ogg
+*.wav
+*.pdf
